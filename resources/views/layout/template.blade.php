@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>{{ env('APP_NAME', 'Ecommerce') }}</title>
 </head>
-<body class="bg-gray-200">
+<body>
     <div class="min-w-screen min-h-screen container-fluid">
         @include('layout.main-header')
             @yield('content')

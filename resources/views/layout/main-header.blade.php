@@ -16,9 +16,9 @@
     <div class="bg-white">
         <nav class="py-3">
             <ul class="flex justify-center space-x-4">
-                <li class="hover:bg-yellow-400 hover:rounded-md hover:p-2 transition-all ease-in-out duration-400 cursor-pointer">Marca</li>
-                <li class="hover:bg-yellow-400 hover:rounded-md hover:p-2 transition-all ease-in-out duration-400 cursor-pointer">Ofertas</li>
-                <li class="hover:bg-yellow-400 hover:rounded-md hover:p-2 transition-all ease-in-out duration-400 cursor-pointer">Categorias</li>
+                <li class="hover:bg-yellow-400 hover:rounded-md hover:p-2 transition-all ease-in-out duration-400 cursor-pointer hover:text-white hover:font-bold">Marca</li>
+                <li class="hover:bg-yellow-400 hover:rounded-md hover:p-2 transition-all ease-in-out duration-400 cursor-pointer hover:text-white hover:font-bold">Ofertas</li>
+                <li class="hover:bg-yellow-400 hover:rounded-md hover:p-2 transition-all ease-in-out duration-400 cursor-pointer hover:text-white hover:font-bold">Categorias</li>
             </ul>
         </nav>
     </div>
