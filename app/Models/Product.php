@@ -9,6 +9,6 @@ class Product extends Model
     protected $table = 'products';
     public $timestamps = false;
     protected $fillable = [
-        'name', 'description', 'price'
+        'name', 'id_category', 'description', 'price', 'image_path'
     ];
 }
