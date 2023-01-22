@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
-    <div class="container-fluid">
-        @include('layout.main-header')
+    <div id="app" class="container-fluid">
+        <div class="pb-36">
+            @include('layout.main-header')
+        </div>
             @yield('content')
         @include('layout.footer')
     </div>

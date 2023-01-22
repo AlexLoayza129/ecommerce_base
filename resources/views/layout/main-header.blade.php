@@ -1,4 +1,4 @@
-<div class="fixed w-full z-10">
+<div class="fixed w-full z-10 pb-32">
     <div class="bg-black text-white py-2">
         <p class="text-center">¡Delivery gratis! A Lima Metropolitana por compras Mayores a S/199.00 (máximo 5 productos)</p>
     </div>
