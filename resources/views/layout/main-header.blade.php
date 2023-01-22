@@ -1,4 +1,4 @@
-<div class="fixed w-full z-10 pb-32">
+<div class="fixed w-full z-10">
     <div class="bg-black text-white py-2">
         <p class="text-center">¡Delivery gratis! A Lima Metropolitana por compras Mayores a S/199.00 (máximo 5 productos)</p>
     </div>
@@ -6,7 +6,7 @@
         <div class="bg-yellow-400 p-3">
             <div class="container mx-auto flex justify-between items-center">
                 {{-- <img src="https://www.pionier.pe/assets/img/logo-web.png" alt="Logo de prueba" class="w-32"> --}}
-                <h1 class="font-black text-2xl spacing-2">Tienda</h1>
+                <a href="/" class="font-black text-2xl spacing-2">Tienda</a>
                 <div>
                     <!-- Carrito de compras -->
                     <button>
