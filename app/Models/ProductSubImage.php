@@ -4,11 +4,11 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Product extends Model
+class ProductSubImage extends Model
 {
-    protected $table = 'products';
+    protected $table = 'product_sub_images';
     public $timestamps = false;
     protected $fillable = [
-        'name', 'id_category', 'description', 'price', 'image_path', 'isOffer'
+        'id_product', 'description', 'image_path'
     ];
 }

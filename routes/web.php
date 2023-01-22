@@ -19,7 +19,6 @@ Route::get('/', [ HomeController::class, 'index' ])->name('home');
 
 Route::group(['prefix' => 'productos', 'as' => 'product.'], function () {
 
-    Route::get('/categoria/{id}', [ ProductController::class, 'list' ])->name('list');
-
-    // Route::get('/{name}', [ ProductController::class, 'index'])->name('index');
+    Route::get('categoria/{id}', [ ProductController::class, 'list' ])->name('list');
+    Route::get('/{id}', [ ProductController::class, 'show' ])->name('show');
 });

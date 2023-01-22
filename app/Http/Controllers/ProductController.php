@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Offer;
 use App\Models\Product;
+use App\Models\ProductSubImage;
 
 class ProductController extends Controller
 {
@@ -22,4 +24,22 @@ class ProductController extends Controller
     public function index(){
 
     }
+
+    public function show($id){
+
+        $product = Product::findOrFail($id);
+        $sub_images = ProductSubImage::all()->where('id_product', '=', $product->id);
+
+        if($product->isOffer == 1){
+            $query = Offer::select()->where('id_product', '=', $product->id)->get();
+            $offer = $query[0];
+        }
+        
+        return view('sections.product.show', [
+            'product' => $product,
+            'offer' => $offer,
+            'sub_images' => $sub_images
+        ]);
+    }
+
 }
